@@ -1,0 +1,7 @@
+# LF normalization
+*         text=auto
+*.java    text
+*.launch  text
+*.md      text
+*.txt     text
+*.xml     text
