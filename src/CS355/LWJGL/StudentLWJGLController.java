@@ -139,9 +139,9 @@ public class StudentLWJGLController implements CS355LWJGLController
 	    // Translate
 	    glTranslatef(x, y, z);
 	    // Rotate
-	    System.out.println("y: " + y);
-	    System.out.println("angle: " + angle);
-	    glRotatef(angle, 0, Math.abs(y), 0);	// only rotating about the y axis
+//	    System.out.println("y: " + y);
+//	    System.out.println("angle: " + angle);
+	    glRotatef(angle, 0, y, 0);	// only rotating about the y axis
 	    
 	    // Start drawing model
 	    glBegin(GL_LINES);
